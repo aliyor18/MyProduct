@@ -1,0 +1,150 @@
+.intro {
+  background-image: url("/img/Bg-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 0%;
+  text-align: center;
+}
+
+.intro__title {
+  max-width: 529px;
+  width: 100%;
+  margin: 0px;
+  margin: 0px auto;
+  margin-bottom: 58px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+}
+
+.intro__list {
+  margin: 0px;
+  margin-bottom: 34px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.intro__item {
+  max-width: 240px;
+  width: 100%;
+  text-align: start;
+}
+
+.intro__item ~ .intro__item {
+  margin-left: 46px;
+}
+
+.intro__item::before {
+  display: block;
+  margin-bottom: 30px;
+  width: 51px;
+  height: 50px;
+  background-image: url("/img/cursor-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+}
+
+.intro__item:nth-child(2)::before {
+  background-image: url("/img/surveys-icon.png");
+}
+
+.intro__item:nth-child(3)::before {
+  background-image: url("/img/heart-icon.png");
+}
+
+.intro__item:nth-child(4)::before {
+  background-image: url("/img/second-icon.png");
+}
+
+.intro__item-title {
+  margin: 0px;
+  margin-bottom: 13px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #22343D;
+}
+
+.intro__item-desc {
+  margin: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.intro__link {
+  margin-bottom: 90px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 33px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #02897A;
+  border-radius: 4px; 
+}
+
+.intro__link:hover {
+  opacity: 0.7;
+}
+
+.intro__link:active {
+  opacity: 0.4;
+}
+
+
+@media only screen and (max-width:426px) {
+  .intro__list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro__title {
+    max-width: 331px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+  }
+
+  .intro__item ~ .intro__item {
+    margin: 0px auto;
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  .intro__item {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .intro__item::before {
+    margin: 0px auto;
+    margin-bottom: 24px;
+  }
+
+  .intro {
+    background-size: contain;
+    background-position: 50% 100%;
+  }
+}

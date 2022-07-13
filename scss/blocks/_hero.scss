@@ -1,0 +1,128 @@
+.hero__inner {
+  margin-top: 25px;
+  margin-bottom: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__info {
+  max-width: 458px;
+  width: 100%;
+}
+
+.hero__title {
+  max-width: 410px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 18px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+}
+
+.hero__desc {
+  margin: 0px;
+  margin-bottom: 45px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.hero__box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.hero__link:nth-child(1) {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #02897A;
+  border-radius: 4px;
+}
+
+.hero__link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #02897A;
+}
+
+.hero__link:nth-child(2):before {
+  content: '';
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-image: url("/img/play-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero__link:hover {
+  opacity: 0.7;
+}
+
+.hero__link:active {
+  opacity: 0.4;
+}
+
+
+@media only screen and (max-width:426px) {
+  .hero__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero__title {
+    margin: 0px auto;
+    max-width: 369px;
+    width: 100%;
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .hero__desc {
+    margin: 0px auto;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    max-width: 326px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero__link:nth-child(1) {
+    padding: 15px 24px;
+  }
+
+  .hero__box {
+    justify-content: center;
+  }
+
+  .hero__img {
+    max-width: 338px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
