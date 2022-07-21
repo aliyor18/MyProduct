@@ -21,7 +21,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .hero__desc {
@@ -32,7 +32,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .hero__box {
@@ -51,8 +51,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
-  background-color: #02897A;
+  color: #ffffff;
+  background-color: #02897a;
   border-radius: 4px;
 }
 
@@ -65,7 +65,7 @@
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
-  color: #02897A;
+  color: #02897a;
 }
 
 .hero__link:nth-child(2):before {
@@ -90,6 +90,7 @@
 
 @media only screen and (max-width:426px) {
   .hero__inner {
+    margin-top: 100px;
     flex-direction: column-reverse;
     text-align: center;
   }

@@ -1,0 +1,164 @@
+.easy {
+  background-image: url("/img/bg-img-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  text-align: center;
+}
+
+.easy__inner {
+  max-width: 963px;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 150px;
+  padding-top: 50px;
+}
+
+.easy__title {
+  margin: 0px;
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343d;
+}
+
+.easy__box {
+  max-width: 542px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.easy__desc {
+  margin: 0px;
+  margin-bottom: 32px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.easy__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.avatar__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.avatar__item:nth-child(2) {
+  margin-top: 24px;
+  flex-direction: row-reverse;
+}
+
+.avatar__img {
+  width: 98px;
+  height: 98px;
+}
+
+.row {
+  flex-direction: row-reverse;
+}
+
+.row:nth-child(2) {
+  flex-direction: row;
+}
+
+.left {
+  margin-right: 16px;
+}
+
+.avatar__desc {
+  margin: 0px;
+  margin-top: 15px;
+  padding: 15px 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  border-radius: 26.5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2f281e;
+}
+
+.easy__link {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 50px;
+  padding: 15px 30px;
+  background-color: #02897a;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.easy__link:hover {
+  opacity: 0.7;
+}
+
+.easy__link:active {
+  opacity: 0.4;
+}
+
+@media only screen and (max-width:426px) {
+  .easy__list {
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .avatar__lists {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .row {
+    margin-top: 24px;
+  }
+
+  .left {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .avatar__desc {
+    margin: 0px;
+    padding: 10px 16px;
+  }
+
+  .avatar__item {
+    align-items: center;
+  }
+
+  .easy__box {
+    max-width: 338px;
+    width: 100%;
+  }
+}

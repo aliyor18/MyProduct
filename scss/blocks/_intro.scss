@@ -1,7 +1,7 @@
 .intro {
   background-image: url("/img/Bg-img.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 50% 0%;
   text-align: center;
 }
@@ -18,7 +18,7 @@
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: #22343D;
+  color: #22343d;
 }
 
 .intro__list {
@@ -72,7 +72,7 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .intro__item-desc {
@@ -82,7 +82,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .intro__link {
@@ -95,8 +95,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
-  background-color: #02897A;
+  color: #ffffff;
+  background-color: #02897a;
   border-radius: 4px; 
 }
 
@@ -124,7 +124,7 @@
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-    color: #22343D;
+    color: #22343d;
   }
 
   .intro__item ~ .intro__item {

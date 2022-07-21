@@ -1,0 +1,123 @@
+.clients__inner {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.clients__title {
+  margin: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+
+.clients__box {
+  max-width: 537px;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+.clients__desc {
+  margin: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+
+.clients__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.clients__item {
+  max-width: 327px;
+  width: 100%;
+  padding: 28px 26px 24px 26px;
+  text-align: start;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.clients__stars {
+  max-width: 107px;
+  width: 100%;
+  height: 19px;
+}
+
+.clients__text {
+  margin: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.clients__info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.clients__img {
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+  margin-right: 14px;
+}
+
+.clients__name {
+  display: block;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+
+.clients__position {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+@media only screen and (max-width:426px) {
+  .clients__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clients__item ~ .clients__item {
+    margin-top: 32px;
+  }
+
+  .clients__box {
+    max-width: 323px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 32px;
+  }
+}
